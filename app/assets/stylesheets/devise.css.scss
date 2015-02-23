@@ -1,27 +1,379 @@
+/* CSS used here will be applied after bootstrap.css */
+
+.background-image {
+	background: url("http://i.imgur.com/LVso5rW.jpg") no-repeat fixed center center / cover transparent;
+	margin-top: -65px;
+	height: 100%;
+}
+
+.navbar {
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #FFF;
+}
+
+.navbar-nav > li > a {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 20px;
+
+
+}
+
+
+.nav > li > a {
+	position: relative;
+	display: block;
+	padding: 10px 15px;
+}
+.navbar {
+	position: relative;
+	min-height: 30px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	border-top-width: 1px;
+	border-right-width-value: 1px;
+	border-right-width-ltr-source: physical;
+	border-right-width-rtl-source: physical;
+	border-bottom-width: 1px;
+	border-left-width-value: 1px;
+	border-left-width-ltr-source: physical;
+	border-left-width-rtl-source: physical;
+	border-top-style: solid;
+	border-right-style-value: solid;
+	border-right-style-ltr-source: physical;
+	border-right-style-rtl-source: physical;
+	border-bottom-style: solid;
+	border-left-style-value: solid;
+	border-left-style-ltr-source: physical;
+	border-left-style-rtl-source: physical;
+	border-top-color: transparent;
+	border-right-color-value: transparent;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+	border-bottom-color: transparent;
+	border-left-color-value: transparent;
+	border-left-color-ltr-source: physical;
+	border-left-color-rtl-source: physical;
+	-moz-border-top-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	border-image-source: none;
+	border-image-slice: 100% 100% 100% 100%;
+	border-image-width: 1 1 1 1;
+	border-image-outset: 0 0 0 0;
+	border-image-repeat: stretch stretch;
+	border-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+
+
+
+.navbar-default {
+	background-color: #F66A55;
+	border-color: transparent;
+	border-top-color: transparent;
+	border-right-color-value: transparent;
+	border-bottom-color: transparent;
+	border-left-color-value: transparent;
+	border-left-color-ltr-source: physical;
+	border-left-color-rtl-source: physical;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+}
+
+
+.container-fluid {
+	margin-right: auto;
+	margin-right-value: auto;
+	margin-right-ltr-source: physical;
+	margin-right-rtl-source: physical;
+	margin-left: auto;
+	margin-left-value: auto;
+	margin-left-ltr-source: physical;
+	margin-left-rtl-source: physical;
+	padding-left: 15px;
+	padding-left-value: 15px;
+	padding-left-ltr-source: physical;
+	padding-left-rtl-source: physical;
+	padding-right: 15px;
+	padding-right-value: 15px;
+	padding-right-ltr-source: physical;
+	padding-right-rtl-source: physical;
+}
+
+
+.container > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-header, .container-fluid > .navbar-collapse {
+	margin-right: 0px;
+	margin-right-value: 0px;
+	margin-right-ltr-source: physical;
+	margin-right-rtl-source: physical;
+	margin-left: 0px;
+	margin-left-value: 0px;
+	margin-left-ltr-source: physical;
+	margin-left-rtl-source: physical;
+
+}
+
+.navbar-header {
+	float: left;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+	border-top-color: transparent;
+	border-right-color-value: transparent;
+	border-bottom-color: transparent;
+	border-left-color-value: transparent;
+	border-left-color-ltr-source: physical;
+	border-left-color-rtl-source: physical;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+}
+
+
+
+
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0px;
+	overflow: hidden;
+	clip: rect(0px, 0px, 0px, 0px);
+	border: 0px none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #FFF;
+}
+
+.navbar-toggle .icon-bar {
+	display: block;
+	width: 22px;
+	height: 2px;
+	border-radius: 1px;
+}
+
+.navbar-toggle .icon-bar + .icon-bar {
+	margin-top: 4px;
+}
+
+
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+	margin-left: -15px;
+}
+.navbar-default .navbar-brand {
+	color: #FFF;
+}
+a.navbar-brand {
+	text-transform: lowercase;
+}
+
+.navbar-brand {
+	float: left;
+	padding: 10px 15px;
+	font-size: 18px;
+	line-height: 20px;
+	height: 40px;
+}
+html, html a {
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+	text-rendering: optimizelegibility !important;
+}
+
+a {
+	text-decoration: none;
+	color: #F66A55;
+}
+
+a {
+	background-color: transparent;
+}
+
+.fa {
+	display: inline-block;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	font-size-adjust: none;
+	font-stretch: normal;
+	font-feature-settings: normal;
+	font-language-override: normal;
+	font-kerning: auto;
+	font-synthesis: weight style;
+	font-variant: normal;
+	font-size: inherit;
+	text-rendering: auto;
+}	
+
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border-color: transparent;
+}
+.container > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-header, .container-fluid > .navbar-collapse {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.navbar-collapse.collapse {
+	display: block !important;
+	visibility: visible !important;
+	height: auto !important;
+	padding-bottom: 0px;
+	overflow: visible !important;
+}
+.navbar-collapse {
+	width: auto;
+	border-top: 0px none;
+	box-shadow: none;
+}
+
+.navbar-collapse {
+
+	padding-right: 15px;
+	padding-left: 15px;
+
+}
+
+.navbar-right {
+	float: right !important;
+	margin-right: -15px;
+}
+.navbar-nav {
+	margin: 0px;
+}
+
+.nav {
+	padding-left: 0px;
+	list-style: outside none none;
+}
+
+.btn {
+	text-transform: uppercase;
+	padding: 10px 20px;
+	border: medium none transparent;
+}
+.btn {
+	text-transform: uppercase;
+	padding: 10px 20px;
+	border: medium none transparent;
+}
+.btn-block {
+	display: block;
+	width: 100%;
+}
+.btn-primary {
+	color: #FFF;
+	background-color: #F66A55;
+	border-color: #F5553D;
+}
+.btn {
+	display: inline-block;
+	margin-bottom: 0px;
+	font-weight: 500;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	white-space: nowrap;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857;
+	border-radius: 1px;
+	-moz-user-select: none;
+}
+
+.jumbotron {
+	color: inherit;
+}
+.text-center {
+	text-align: center;
+}
+
+
+
+.btn-block + .btn-block {
+	margin-top: 5px;
+}
+
+.container .jumbotron, .container-fluid .jumbotron {
+	padding-left: 60px;
+	padding-left-value: 60px;
+	padding-left-ltr-source: physical;
+	padding-left-rtl-source: physical;
+	padding-right: 60px;
+}
+.container .jumbotron, .container-fluid .jumbotron {
+	border-radius: 2px;
+}
+.jumbotron {
+	border: 4px solid #F66A55;
+	margin-top: 75px;
+}
+.jumbotron {
+	border: 4px solid #F66A55;
+	margin-top: 75px;
+}
+.jumbotron {
+	padding: 48px 0px;
+}
+.jumbotron {
+	padding: 30px 15px;
+	margin-bottom: 30px;
+	color: inherit;
+	background-color: #EEE;
+}
+.text-center {
+	text-align: center;
+}
+
 .form-signin {
-max-width: 330px;
-padding: 15px;
-margin: 0 auto;
+
+	max-width: 330px;
+	padding: 15px;
+	margin: 0 auto;
 }
 .form-signin .form-signin-heading,
 .form-signin .checkbox {
-margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 .form-signin .checkbox {
-font-weight: normal;
+	font-weight: normal;
 }
 .form-signin .form-control {
-position: relative;
-height: auto;
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
-padding: 10px;
-font-size: 16px;
+	position: relative;
+	height: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 10px;
+	font-size: 16px;
 }
 .form-signin .form-control:focus {
-z-index: 2;
+	z-index: 2;
 }
 .form-signin input {
-margin-bottom: 10px;
+	margin-bottom: 10px;
 } 
+
+
+body {
+	font-family: "Roboto Slab",sans-serif;
+	font-size: 14px;
+	line-height: 1.42857;
+	color: #333;
+}
